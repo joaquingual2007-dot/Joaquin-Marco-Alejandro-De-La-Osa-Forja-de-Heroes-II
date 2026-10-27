@@ -39,6 +39,7 @@ foreach ($party as $i => $heroe) {
     // profesor mete una clase olvidada, el programa falla en el acto (ver memoria).
     $danio = match ($heroe['clase']) {
         'Guerrera'  => $heroe['fuerza'] ** 2 / 10 + $nivel * 2,
+        'Arquero'   => $heroe['destreza'] * 2 + $nivel * 1.5,
         'Hechicero' => $heroe['inteligencia'] * 3 + $nivel ** 2 / 4,
         'Pícara'    => $heroe['destreza'] * 2 + $nivel ** 1.5,
         'Clérigo'   => ($heroe['inteligencia'] + $heroe['constitucion']) * 1.5 + $nivel,
@@ -60,6 +61,9 @@ foreach ($party as $i => $heroe) {
         case 'Guerrera':
         case 'Clérigo':
             $posicion = 'Primera línea';
+            break;
+        case 'Arquero':
+            $posicion = 'Flanco';
             break;
         case 'Pícara':
             $posicion = 'Flanco';

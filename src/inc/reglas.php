@@ -25,6 +25,7 @@ const BLOQUES_BARRA = 20;    // longitud de las barras de progreso
 // Multiplicador de vida según la clase (array asociativo clase => valor).
 const MULT_VIDA = [
     'Guerrera'  => 3,
+    'Arquero'   => 2,
     'Hechicero' => 1,
     'Pícara'    => 2,
     'Clérigo'   => 2,
