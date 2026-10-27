@@ -12,7 +12,7 @@
 
 declare(strict_types=1);
 
-// Variante asignada en el aula virtual: 'A', 'B' o 'C'.
+// Variante elegida en el aula virtual: 'A', 'B' o 'C'.
 // Decide qué fichero de datos se carga (inc/datos-A.php, ...).
 const VARIANTE = 'A';
 
