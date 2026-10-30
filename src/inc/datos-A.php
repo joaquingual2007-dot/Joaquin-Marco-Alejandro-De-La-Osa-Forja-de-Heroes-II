@@ -28,7 +28,7 @@ $party = [
     ['nombre' => 'Alejandro de la Osa <Arquero>',  'clase' => 'Arquero',
      'fuerza' => 10, 'destreza' => 18, 'inteligencia' => 11, 'constitucion' => 12,
      'xp' => 2000, 'vida' => 90],
-    ['nombre' => 'Aldric <el Arcano>',             'clase' => 'Hechicero',
+    ['nombre' => 'Marco García Ruiz <el Arcano>',  'clase' => 'Hechicero',
      'fuerza' => 8,  'destreza' => 11, 'inteligencia' => 19, 'constitucion' => 10,
      'xp' => 3120, 'vida' => 41],
     ['nombre' => 'Vex <Sin Nombre>',               'clase' => 'Pícara',
